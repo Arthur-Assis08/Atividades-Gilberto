@@ -1,6 +1,7 @@
 programa
 {
-	/*2. Escreva um programa que leia 10 números inteiros. Ao final, o programa deve
+	
+/*2. Escreva um programa que leia 10 números inteiros. Ao final, o programa deve
 digitar a quantidade de números pares e imprimir cada um dos valores pares
 existentes no vetor.*/
 	funcao inicio()
@@ -16,7 +17,7 @@ existentes no vetor.*/
 				contador = contador + 1
 			}
 		}
-		escreva("você digitou ", contador, "números pares  e são:\n")
+		escreva("você digitou ", contador, " números pares  e são:\n")
 		para(i=0; i<10; i++){
 			se(par[i]==0){	
 				escreva(nu[i], "\n")
